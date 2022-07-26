@@ -2,7 +2,7 @@ let precio = 100
 let repetir = true
 
 while (repetir) {
-    let cantidad = parseInt(prompt("¡Bienvenido! Ingrese que cantidad de combos que desea, el precio es de $10 por cada uno"))
+    let cantidad = parseInt(prompt("¡Bienvenido! Ingrese la cantidad de combos que desea, el precio es de $100 por cada uno"))
 
     alert(`Su pedido es igual a $${cantidad * precio}`)
 
